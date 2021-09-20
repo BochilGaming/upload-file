@@ -1,4 +1,4 @@
-#usage
+# usage
 ```js
 const { uploadFile, uploadFileFromPath } = require('uploadFile')
 const fs = require('fs')
@@ -17,7 +17,7 @@ uploadFileFromPath('./logo.png.png')
 })
 ```
 
-#return
+# return
 ```js
 {
   status: 200,
