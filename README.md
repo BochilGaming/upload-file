@@ -1,6 +1,6 @@
 #usage
-```
-const {uploadFile, uploadFileFromPath} = require('uploadFile')
+```js
+const { uploadFile, uploadFileFromPath } = require('uploadFile')
 const fs = require('fs')
 
 for input buffer
@@ -18,7 +18,7 @@ uploadFileFromPath('./logo.png.png')
 ```
 
 #return
-```
+```js
 {
   status: 200,
   creator: '@hardianto02_',
